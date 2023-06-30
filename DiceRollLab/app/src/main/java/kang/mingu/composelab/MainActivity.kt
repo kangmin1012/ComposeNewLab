@@ -58,6 +58,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
         5 -> R.drawable.dice_5
         else -> R.drawable.dice_6
     }
+
     Column(
         modifier = modifier,
         horizontalAlignment = Alignment.CenterHorizontally
